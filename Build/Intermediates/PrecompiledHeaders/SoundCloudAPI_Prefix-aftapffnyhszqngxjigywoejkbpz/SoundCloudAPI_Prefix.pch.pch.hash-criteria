@@ -1,0 +1,47 @@
+Contents of /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI_Prefix.pch
+-x
+objective-c
+-arch
+armv7
+-std=c99
+-fpascal-strings
+-O0
+-DSCAPI_VERSION=@"2.0b6"
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+-g
+-miphoneos-version-min=4.0
+-iquote
+-iquote
+-iquote..
+-iquote../Build
+-iquote../CocoaSoundCloudAPI
+-iquote../CocoaSoundCloudUI
+-iquote../JSONKit
+-iquote../OAuth2Client
+-iquote../OHAttributedLabel
+-iquote../SampleApp
+-iquote../SampleAppTests
+-iquote../CocoaSoundCloudAPI/Sources
+-iquote../CocoaSoundCloudUI/SoundCloud.bundle
+-iquote../CocoaSoundCloudUI/Sources
+-iquote../JSONKit/JSONKit
+-iquote../OAuth2Client/Sources
+-iquote../OHAttributedLabel/AttributedLabel Example
+-iquote../OHAttributedLabel/OHAttributedLabel
+-iquote../SampleApp/Images.xcassets
+-iquote../SampleApp/SoundCloud.bundle
+-iquote../CocoaSoundCloudAPI/Sources/SoundCloudAPI
+-iquote../CocoaSoundCloudUI/Sources/CocoaAdditions
+-iquote../CocoaSoundCloudUI/Sources/SoundCloudUI
+-iquote../OAuth2Client/Sources/OAuth2Client
+-iquote../OHAttributedLabel/AttributedLabel Example/Classes
+-iquote../SampleApp/Images.xcassets/AppIcon.appiconset
+-iquote../SampleApp/Images.xcassets/LaunchImage.launchimage
+-I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/include
+-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+-F/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos
+arm-apple-darwin13.3.0
+"4.2.1 Compatible Apple LLVM 5.1 (clang-503.0.40)"
+SDK_PRODUCT_BUILD_VERSION=11D167
+11D167

@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudUI/Sources/SoundCloudUI/SCLoginView.m \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2Client.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2ClientDelegate.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2Constants.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2TrustDelegate.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2ConnectionDelegate.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2AccessToken.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2Connection.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2FileStreamWrapper.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2PostBodyStream.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2AccountStore.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2Account.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2Request.h \
+  ../OAuth2Client/Sources/NSURL+NXOAuth2.h \
+  ../OAuth2Client/Sources/NSString+NXOAuth2.h \
+  ../OAuth2Client/Sources/NSData+NXOAuth2.h \
+  ../CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCSoundCloud.h \
+  ../CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCSoundCloud+Private.h \
+  /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudUI/Sources/CocoaAdditions/UIColor+SoundCloudUI.h \
+  /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudUI/Sources/CocoaAdditions/UIDevice+SoundCloudUI.h \
+  /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudUI/Sources/CocoaAdditions/UIView+SoundCloudUI.h \
+  ../CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCConstants.h \
+  ../CocoaSoundCloudUI/Sources/SoundCloudUI/SCBundle.h \
+  ../CocoaSoundCloudUI/Sources/SoundCloudUI/SCLoginView.h \
+  ../CocoaSoundCloudUI/Sources/SoundCloudUI/SCCredentialsView.h \
+  ../CocoaSoundCloudUI/Sources/SoundCloudUI/SCTextField.h \
+  ../CocoaSoundCloudUI/Sources/SoundCloudUI/SCGradientButton.h \
+  ../CocoaSoundCloudUI/Sources/SoundCloudUI/SCAlertView.h \
+  ../CocoaSoundCloudUI/Sources/SoundCloudUI/SCDrawing.h \
+  ../OHAttributedLabel/OHAttributedLabel/OHAttributedLabel.h \
+  ../OHAttributedLabel/OHAttributedLabel/NSAttributedString+Attributes.h

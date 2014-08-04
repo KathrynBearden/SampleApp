@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCAccount.m \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2Client.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2ClientDelegate.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2Constants.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2TrustDelegate.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2ConnectionDelegate.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2AccessToken.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2Connection.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2FileStreamWrapper.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2PostBodyStream.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2AccountStore.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2Account.h \
+  ../OAuth2Client/Sources/OAuth2Client/NXOAuth2Request.h \
+  ../OAuth2Client/Sources/NSURL+NXOAuth2.h \
+  ../OAuth2Client/Sources/NSString+NXOAuth2.h \
+  ../OAuth2Client/Sources/NSData+NXOAuth2.h \
+  ../CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCAccount+Private.h \
+  ../CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCAccount.h
