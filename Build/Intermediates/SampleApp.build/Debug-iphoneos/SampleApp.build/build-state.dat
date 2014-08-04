@@ -6,6 +6,7 @@ cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platfo
 cProcessPCH /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch.pch SampleApp/SampleApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCViewController.o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/main.o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SCTTrackListViewController.o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SCTTrackListViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCAppDelegate.o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/SampleApp normal armv7s
 cCpResource SampleApp/SoundCloud.bundle Build/Products/Debug-iphoneos/SampleApp.app/SoundCloud.bundle
@@ -44,6 +45,16 @@ c000000005323DB18000000000000019E
 t1394858776
 s414
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000005323DB1C0000000000632990
+t1394858780
+s6498704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+c000000005323DB1B00000000000D6100
+t1394858779
+s876800
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
 c000000005323DB1A0000000000225DF0
 t1394858778
@@ -54,25 +65,75 @@ c000000005323DB1B000000000067B480
 t1394858779
 s6796416
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005323DB1D0000000000CF7800
+t1394858781
+s13596672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005323DB1D000000000063A500
+t1394858781
+s6530304
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000005323DB1C00000000001A2540
+t1394858780
+s1713472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000005323DB1E000000000079C660
+t1394858782
+s7980640
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 c00000000534CC13600000000004D7BC0
 t1397539126
 s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c000000005323DB1F0000000000433410
+t1394858783
+s4404240
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
 c000000005323DB1E0000000000152370
 t1394858782
 s1385328
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+c000000005323DB1E000000000011EB10
+t1394858782
+s1174288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000005323DB1F00000000002CB700
+t1394858783
+s2930432
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
 c000000005323DB1F0000000000306EF0
 t1394858783
 s3174128
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000005323DB1F000000000006DCD0
+t1394858783
+s449744
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 c000000005323DB220000000000A90C10
 t1394858786
 s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
+c000000005323DB260000000000D06500
+t1394858790
+s13657344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000005323DB2400000000000417E0
+t1394858788
+s268256
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
 c000000005323DB260000000000649DB0
@@ -89,128 +150,357 @@ c000000005323DB300000000002759920
 t1394858800
 s41261344
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c000000005323DB460000000000385D50
+t1394858822
+s3693904
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+c000000005323DB53000000000001E300
+t1394858835
+s123648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+c000000005323DB50000000000055EFE0
+t1394858832
+s5631968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+c000000005323DB53000000000002A880
+t1394858835
+s174208
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+c000000005323DB5300000000000458C0
+t1394858835
+s284864
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+c000000005323DB53000000000003E3E0
+t1394858835
+s254944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+c000000005323DB53000000000002B130
+t1394858835
+s176432
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+c000000005323DB5400000000000E1FD0
+t1394858836
+s925648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+c000000005323DB5400000000000A2A70
+t1394858836
+s666224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+c000000005323DB54000000000001E8A0
+t1394858836
+s125088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+c000000005323DB54000000000000BF00
+t1394858836
+s48896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+c000000005323DB540000000000034380
+t1394858836
+s213888
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+c000000005323DB540000000000022F30
+t1394858836
+s143152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+c000000005323DB54000000000001E2A0
+t1394858836
+s123552
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+c000000005323DB540000000000052520
+t1394858836
+s337184
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+c000000005323DB540000000000015F20
+t1394858836
+s89888
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+c000000005323DB5400000000001B90D0
+t1394858836
+s1806544
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+c000000005323DB54000000000001F170
+t1394858836
+s127344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+c000000005323DB54000000000002FCF0
+t1394858836
+s195824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+c000000005323DB54000000000008A150
+t1394858836
+s565584
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+c000000005323DB5400000000000B60E0
+t1394858836
+s745696
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+c000000005323DB540000000000078720
+t1394858836
+s493344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+c000000005323DB5400000000000621F0
+t1394858836
+s401904
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+c000000005323DB5400000000000BDAE0
+t1394858836
+s776928
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+c000000005323DB540000000000039080
+t1394858836
+s233600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+c000000005323DB54000000000003CBC0
+t1394858836
+s248768
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+c000000005323DB54000000000002CFE0
+t1394858836
+s184288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+c000000005323DB54000000000001EB50
+t1394858836
+s125776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+c000000005323DB54000000000001EED0
+t1394858836
+s126672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+c000000005323DB5400000000000236B0
+t1394858836
+s145072
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+c000000005323DB5400000000000AC500
+t1394858836
+s705792
+
 N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
 c000000005323DBFD0000000000000ADC
 t1394859005
 s2780
 
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c00000000534CC137000000000000514C
+t1397539127
+s20812
+
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch.pch
-t1407113974
+t1407131610
 s95732
 
+N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SCTTrackListViewController.o
+t1407131612
+s61236
+
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCAppDelegate.o
-t1407113975
-s61924
+t1407131612
+s64132
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCViewController.o
-t1407113975
-s39352
+t1407131612
+s62424
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SampleApp.LinkFileList
-c0000000053DEDAF40000000000000203
-t1407113972
-s515
+c0000000053DF1FD700000000000002BD
+t1407131607
+s701
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/main.o
-t1407113974
+t1407131610
 s3876
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp.xcent
-t1407114042
+t1407131639
 s499
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/assetcatalog_dependencies.txt
-t1407114034
+t1407131636
 s448
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/assetcatalog_generated_info.plist
-t1407114034
+t1407131636
 s525
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app
-t1407114042
-s408
+t1407132053
+s442
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app.dSYM
-t2
-s0
+t1407131929
+s102
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/Base.lproj/Main.storyboardc
-t1407114040
-s170
+t1407132053
+s238
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/Info.plist
-t1407114040
+t1407131639
 s1301
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/PkgInfo
-t1407114040
+t1407131639
 s8
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/ResourceRules.plist
-t1407113972
+t1407131607
 s150
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/SampleApp
-t1407113979
-s867036
+t1407131930
+s887056
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/SoundCloud.bundle
-t1407113981
+t1407131619
 s2380
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/embedded.mobileprovision
-t1407114042
+t1407131639
 s7524
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/en.lproj/InfoPlist.strings
-t1407113979
+t1407131618
 s42
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/libJSONKit.a
-c0000000053DEDAEF0000000000080DD8
-t1407113967
-s527832
+c0000000053DF1FD70000000000040760
+t1407131607
+s264032
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/libOAuth2Client.a
-c0000000053DEDAEA0000000000081E90
-t1407113962
+c0000000053DF1FD50000000000081E90
+t1407131605
 s532112
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/libOHAttributedLabel.a
-c0000000053DEDAE70000000000045B50
-t1407113959
-s285520
+c0000000053DF1FD00000000000022D80
+t1407131600
+s142720
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/libSoundCloudAPI.a
-c0000000053DEDAF4000000000002DC10
-t1407113972
-s187408
+c0000000053DF1FD70000000000016DF0
+t1407131607
+s93680
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/libSoundCloudUI.a
-c0000000053DEDAF300000000003B8CE8
-t1407113971
-s3902696
+c0000000053DF1FD600000000001DC5A0
+t1407131606
+s1951136
+
+N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCAPI.h
+c0000000053DED4D0000000000000031F
+t1407112400
+s799
+
+N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCAccount.h
+c0000000053DED4D000000000000003FA
+t1407112400
+s1018
+
+N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCConstants.h
+c0000000053DED4D00000000000000676
+t1407112400
+s1654
+
+N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCRequest.h
+c0000000053DED4D00000000000000A1A
+t1407112400
+s2586
+
+N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCSoundCloud.h
+c0000000053DED4D000000000000005FA
+t1407112400
+s1530
+
+N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudUI/Sources/SoundCloudUI/SCLoginViewController.h
+c0000000053DED537000000000000041F
+t1407112503
+s1055
+
+N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudUI/Sources/SoundCloudUI/SCShareViewController.h
+c0000000053DED5370000000000000708
+t1407112503
+s1800
+
+N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudUI/Sources/SoundCloudUI/SCUI.h
+c0000000053DED5370000000000000330
+t1407112503
+s816
+
+N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudUI/Sources/SoundCloudUI/SCUIErrors.h
+c0000000053DED537000000000000038F
+t1407112503
+s911
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/Base.lproj/Main.storyboard
-c0000000053DED471000000000000071E
-t1407112305
-s1822
+c0000000053DF21900000000000001DF9
+t1407132048
+s7673
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/Images.xcassets
 c0000000053DED4710000000000000088
 t1407112305
 s136
 
-N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCAppDelegate.m
-c0000000053DED47100000000000007E8
+N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SCTTrackListViewController.h
+c0000000053DF1E7C000000000000019E
+t1407131260
+s414
+
+N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SCTTrackListViewController.m
+c0000000053DF1F770000000000000E8F
+t1407131511
+s3727
+
+N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCAppDelegate.h
+c0000000053DED4710000000000000123
 t1407112305
-s2024
+s291
+
+N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCAppDelegate.m
+c0000000053DEE761000000000000096F
+t1407117153
+s2415
+
+N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCViewController.h
+c0000000053DF1AB3000000000000012A
+t1407130291
+s298
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCViewController.m
-c0000000053DED4710000000000000201
-t1407112305
-s513
+c0000000053DF1D6E0000000000000D81
+t1407130990
+s3457
 
 N/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SampleApp-Info.plist
 c0000000053DED47100000000000004CB
@@ -242,6 +532,12 @@ c00000000538E9BC90000000000001D64
 t1401854921
 s7524
 
+CBuild AST from /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SCTTrackListTableViewController.m
+r0
+
+CBuild AST from /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SCTTrackListViewController.m
+r0
+
 CBuild AST from /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCAppDelegate.m
 r0
 
@@ -253,20 +549,21 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies89f00b74128fb941^6af51974128fb941^---0#1#1#--18"Check dependencies36"3FF6158E-9839-45A2-A231-D73A8F0D8308-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies836b7215598fb941^12de7215598fb941^---0#1#1#--18"Check dependencies36"9912A413-ADA5-42B9-AC72-F33618C2E931-
 
 CCodeSign /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app
-s428806842.559387
-e428806846.266329
+s428824853.890078
+e428824854.544648
 r1
 xCodeSign
 x/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"CodeSign Build/Products/Debug-iphoneos/SampleApp.app52"CodeSign Build/Products/Debug-iphoneos/SampleApp.app3926a7ba128fb941^5beb43be128fb941^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/0000000000000000^1135"CodeSign Build/Products/Debug-iphoneos/SampleApp.app    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Kathryn Bearden (MCBW392BK8)" and provisioning profile "iOS Team Provisioning Profile: *" (FAAF9052-9474-446F-A68D-74A62F229CD0)    /usr/bin/codesign --force --sign 6F7AF1424BD71C1BE17E6344A6C3AF6916A3CC75 --resource-rules=/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/ResourceRules.plist --entitlements /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp.xcent /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app36"F989413B-2D17-4FA0-94B9-8A77E5ABCC87-
-bC903B16C-A3B0-4A41-8BC4-38FECE0FAACB
+o/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app: replacing existing signature
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"CodeSign Build/Products/Debug-iphoneos/SampleApp.app52"CodeSign Build/Products/Debug-iphoneos/SampleApp.appf0fbe315598fb941^e04d8b16598fb941^-142"/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app: replacing existing signature-0#0#1#-19%DVTDocumentLocation2@119"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/0000000000000000^1135"CodeSign Build/Products/Debug-iphoneos/SampleApp.app    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Kathryn Bearden (MCBW392BK8)" and provisioning profile "iOS Team Provisioning Profile: *" (FAAF9052-9474-446F-A68D-74A62F229CD0)    /usr/bin/codesign --force --sign 6F7AF1424BD71C1BE17E6344A6C3AF6916A3CC75 --resource-rules=/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/ResourceRules.plist --entitlements /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp.xcent /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app36"2B2648C2-0173-42E3-AF86-1536373553CF-
+bB3D74C90-4A49-4192-A751-89B630C9226B
 
 CCompileAssetCatalog /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/Images.xcassets
-s428806781.857887
-e428806835.094049
+s428824419.130439
+e428824436.417161
 r1
 xCompileAssetCatalog
 x/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app
@@ -276,12 +573,52 @@ o/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Produ
 o/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/Assets.car
 o/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/assetcatalog_generated_info.plist
 o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"CompileAssetCatalog Build/Products/Debug-iphoneos/SampleApp.app SampleApp/Images.xcassets89"CompileAssetCatalog Build/Products/Debug-iphoneos/SampleApp.app SampleApp/Images.xcassets46cddb7d128fb941^901518b3128fb941^-476"/* com.apple.actool.compilation-results *//Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/LaunchImage-700-568h@2x.png/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/Assets.car/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@101"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/Images.xcassets/0000000000000000^1212"CompileAssetCatalog Build/Products/Debug-iphoneos/SampleApp.app SampleApp/Images.xcassets    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/Images.xcassets36"C3191088-06EE-4127-9DB7-B95C78FF8851-
-bC903B16C-A3B0-4A41-8BC4-38FECE0FAACB
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"CompileAssetCatalog Build/Products/Debug-iphoneos/SampleApp.app SampleApp/Images.xcassets89"CompileAssetCatalog Build/Products/Debug-iphoneos/SampleApp.app SampleApp/Images.xcassetse2902163578fb941^f8e36a74578fb941^-476"/* com.apple.actool.compilation-results *//Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/LaunchImage-700-568h@2x.png/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/Assets.car/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@101"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/Images.xcassets/0000000000000000^1212"CompileAssetCatalog Build/Products/Debug-iphoneos/SampleApp.app SampleApp/Images.xcassets    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/Images.xcassets36"3731786D-9772-4A30-8000-B728C15F3EFC-
+b65032159-621F-468D-AB06-DC4FF7C8CFFB
+
+CCompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/arm64/SDCAppDelegate.o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/arm64/SDCViewController.o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/arm64/main.o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7/SDCAppDelegate.o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7/SDCViewController.o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7/main.o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SCTTrackListTableViewController.o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SCTTrackListTableViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SCTTrackListViewController.o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SCTTrackListViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428824410.846695
+e428824412.275094
+r1
+xCompileC
+xBuild/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SCTTrackListViewController.o
+x/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SCTTrackListViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SCTTrackListViewController.m
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SCTTrackListViewController.h
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCAccount.h
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCSoundCloud.h
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCRequest.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SCTTrackListViewController.m235"CompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SCTTrackListViewController.o SampleApp/SCTTrackListViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler2de9d85a578fb941^056d465c578fb941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SCTTrackListViewController.m0000000000000000^4786"CompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SCTTrackListViewController.o SampleApp/SCTTrackListViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/charleshblack/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-generated-files.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-own-target-headers.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-all-target-headers.hmap -iquote /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-project-headers.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/include -I<Multiple -Ivalues> -I. -IBuild -ICocoaSoundCloudAPI -ICocoaSoundCloudUI -IJSONKit -IOAuth2Client -IOHAttributedLabel -ISampleApp -ISampleAppTests -ICocoaSoundCloudAPI/Sources -ICocoaSoundCloudUI/SoundCloud.bundle -ICocoaSoundCloudUI/Sources -IJSONKit/JSONKit -IOAuth2Client/Sources -IOHAttributedLabel/AttributedLabel\ Example -IOHAttributedLabel/OHAttributedLabel -ISampleApp/Images.xcassets -ISampleApp/SoundCloud.bundle -ICocoaSoundCloudAPI/Sources/SoundCloudAPI -ICocoaSoundCloudUI/Sources/CocoaAdditions -ICocoaSoundCloudUI/Sources/SoundCloudUI -IOAuth2Client/Sources/OAuth2Client -IOHAttributedLabel/AttributedLabel\ Example/Classes -ISampleApp/Images.xcassets/AppIcon.appiconset -ISampleApp/Images.xcassets/LaunchImage.launchimage -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/DerivedSources/armv7s -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/DerivedSources -F/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos -include /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch -MMD -MT dependencies -MF /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SCTTrackListViewController.d --serialize-diagnostics /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SCTTrackListViewController.dia -c /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SCTTrackListViewController.m -o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SCTTrackListViewController.o36"6821B075-7BE7-4DDE-8FA7-98AC176FE5C4-
+b65032159-621F-468D-AB06-DC4FF7C8CFFB
 
 CCompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCAppDelegate.o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428806774.805663
-e428806775.797859
+s428824412.139755
+e428824412.407212
 r1
 xCompileC
 xBuild/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCAppDelegate.o
@@ -292,12 +629,21 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCAppDelegate.m
 d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCAppDelegate.m211"CompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCAppDelegate.o SampleApp/SDCAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerf165ce76128fb941^4242cc77128fb941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCAppDelegate.m0000000000000000^4714"CompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCAppDelegate.o SampleApp/SDCAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/charleshblack/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-generated-files.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-own-target-headers.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-all-target-headers.hmap -iquote /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-project-headers.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/include -I<Multiple -Ivalues> -I. -IBuild -ICocoaSoundCloudAPI -ICocoaSoundCloudUI -IJSONKit -IOAuth2Client -IOHAttributedLabel -ISampleApp -ISampleAppTests -ICocoaSoundCloudAPI/Sources -ICocoaSoundCloudUI/SoundCloud.bundle -ICocoaSoundCloudUI/Sources -IJSONKit/JSONKit -IOAuth2Client/Sources -IOHAttributedLabel/AttributedLabel\ Example -IOHAttributedLabel/OHAttributedLabel -ISampleApp/Images.xcassets -ISampleApp/SoundCloud.bundle -ICocoaSoundCloudAPI/Sources/SoundCloudAPI -ICocoaSoundCloudUI/Sources/CocoaAdditions -ICocoaSoundCloudUI/Sources/SoundCloudUI -IOAuth2Client/Sources/OAuth2Client -IOHAttributedLabel/AttributedLabel\ Example/Classes -ISampleApp/Images.xcassets/AppIcon.appiconset -ISampleApp/Images.xcassets/LaunchImage.launchimage -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/DerivedSources/armv7s -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/DerivedSources -F/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos -include /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch -MMD -MT dependencies -MF /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCAppDelegate.d --serialize-diagnostics /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCAppDelegate.dia -c /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCAppDelegate.m -o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCAppDelegate.o36"DC291CC3-3604-4196-8198-D81D0C7A7C79-
-bC903B16C-A3B0-4A41-8BC4-38FECE0FAACB
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudUI/Sources/SoundCloudUI/SCUI.h
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCAPI.h
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCConstants.h
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCSoundCloud.h
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCAccount.h
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCRequest.h
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudUI/Sources/SoundCloudUI/SCUIErrors.h
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudUI/Sources/SoundCloudUI/SCShareViewController.h
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudUI/Sources/SoundCloudUI/SCLoginViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCAppDelegate.m211"CompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCAppDelegate.o SampleApp/SDCAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler84f1235c578fb941^d140685c578fb941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCAppDelegate.m0000000000000000^4714"CompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCAppDelegate.o SampleApp/SDCAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/charleshblack/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-generated-files.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-own-target-headers.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-all-target-headers.hmap -iquote /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-project-headers.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/include -I<Multiple -Ivalues> -I. -IBuild -ICocoaSoundCloudAPI -ICocoaSoundCloudUI -IJSONKit -IOAuth2Client -IOHAttributedLabel -ISampleApp -ISampleAppTests -ICocoaSoundCloudAPI/Sources -ICocoaSoundCloudUI/SoundCloud.bundle -ICocoaSoundCloudUI/Sources -IJSONKit/JSONKit -IOAuth2Client/Sources -IOHAttributedLabel/AttributedLabel\ Example -IOHAttributedLabel/OHAttributedLabel -ISampleApp/Images.xcassets -ISampleApp/SoundCloud.bundle -ICocoaSoundCloudAPI/Sources/SoundCloudAPI -ICocoaSoundCloudUI/Sources/CocoaAdditions -ICocoaSoundCloudUI/Sources/SoundCloudUI -IOAuth2Client/Sources/OAuth2Client -IOHAttributedLabel/AttributedLabel\ Example/Classes -ISampleApp/Images.xcassets/AppIcon.appiconset -ISampleApp/Images.xcassets/LaunchImage.launchimage -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/DerivedSources/armv7s -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/DerivedSources -F/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos -include /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch -MMD -MT dependencies -MF /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCAppDelegate.d --serialize-diagnostics /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCAppDelegate.dia -c /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCAppDelegate.m -o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCAppDelegate.o36"6ABEBDA3-B046-4D10-A6A4-825F576A3AD9-
+b65032159-621F-468D-AB06-DC4FF7C8CFFB
 
 CCompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCViewController.o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428806774.328732
-e428806775.780963
+s428824410.376179
+e428824412.139034
 r1
 xCompileC
 xBuild/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCViewController.o
@@ -308,12 +654,22 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCViewController.m
 d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCViewController.m217"CompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCViewController.o SampleApp/SDCViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler3a5b5476128fb941^b7edc777128fb941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCViewController.m0000000000000000^4732"CompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCViewController.o SampleApp/SDCViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/charleshblack/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-generated-files.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-own-target-headers.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-all-target-headers.hmap -iquote /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-project-headers.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/include -I<Multiple -Ivalues> -I. -IBuild -ICocoaSoundCloudAPI -ICocoaSoundCloudUI -IJSONKit -IOAuth2Client -IOHAttributedLabel -ISampleApp -ISampleAppTests -ICocoaSoundCloudAPI/Sources -ICocoaSoundCloudUI/SoundCloud.bundle -ICocoaSoundCloudUI/Sources -IJSONKit/JSONKit -IOAuth2Client/Sources -IOHAttributedLabel/AttributedLabel\ Example -IOHAttributedLabel/OHAttributedLabel -ISampleApp/Images.xcassets -ISampleApp/SoundCloud.bundle -ICocoaSoundCloudAPI/Sources/SoundCloudAPI -ICocoaSoundCloudUI/Sources/CocoaAdditions -ICocoaSoundCloudUI/Sources/SoundCloudUI -IOAuth2Client/Sources/OAuth2Client -IOHAttributedLabel/AttributedLabel\ Example/Classes -ISampleApp/Images.xcassets/AppIcon.appiconset -ISampleApp/Images.xcassets/LaunchImage.launchimage -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/DerivedSources/armv7s -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/DerivedSources -F/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos -include /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch -MMD -MT dependencies -MF /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCViewController.d --serialize-diagnostics /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCViewController.dia -c /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCViewController.m -o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCViewController.o36"099E8BCB-EC99-4F02-BF1B-81DAF3E43E38-
-bC903B16C-A3B0-4A41-8BC4-38FECE0FAACB
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudUI/Sources/SoundCloudUI/SCUI.h
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCAPI.h
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCConstants.h
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCSoundCloud.h
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCAccount.h
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCRequest.h
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudUI/Sources/SoundCloudUI/SCUIErrors.h
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudUI/Sources/SoundCloudUI/SCShareViewController.h
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudUI/Sources/SoundCloudUI/SCLoginViewController.h
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SCTTrackListViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCViewController.m217"CompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCViewController.o SampleApp/SDCViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerd385605a578fb941^6897235c578fb941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCViewController.m0000000000000000^4732"CompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCViewController.o SampleApp/SDCViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/charleshblack/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-generated-files.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-own-target-headers.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-all-target-headers.hmap -iquote /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-project-headers.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/include -I<Multiple -Ivalues> -I. -IBuild -ICocoaSoundCloudAPI -ICocoaSoundCloudUI -IJSONKit -IOAuth2Client -IOHAttributedLabel -ISampleApp -ISampleAppTests -ICocoaSoundCloudAPI/Sources -ICocoaSoundCloudUI/SoundCloud.bundle -ICocoaSoundCloudUI/Sources -IJSONKit/JSONKit -IOAuth2Client/Sources -IOHAttributedLabel/AttributedLabel\ Example -IOHAttributedLabel/OHAttributedLabel -ISampleApp/Images.xcassets -ISampleApp/SoundCloud.bundle -ICocoaSoundCloudAPI/Sources/SoundCloudAPI -ICocoaSoundCloudUI/Sources/CocoaAdditions -ICocoaSoundCloudUI/Sources/SoundCloudUI -IOAuth2Client/Sources/OAuth2Client -IOHAttributedLabel/AttributedLabel\ Example/Classes -ISampleApp/Images.xcassets/AppIcon.appiconset -ISampleApp/Images.xcassets/LaunchImage.launchimage -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/DerivedSources/armv7s -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/DerivedSources -F/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos -include /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch -MMD -MT dependencies -MF /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCViewController.d --serialize-diagnostics /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCViewController.dia -c /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCViewController.m -o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCViewController.o36"6768660B-4A56-4B99-902B-920EAEAD2178-
+b65032159-621F-468D-AB06-DC4FF7C8CFFB
 
 CCompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/main.o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428806774.330208
-e428806774.805212
+s428824410.377659
+e428824410.845207
 r1
 xCompileC
 xBuild/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/main.o
@@ -324,61 +680,73 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/main.m
 d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/main.m191"CompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/main.o SampleApp/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler6fb75476128fb941^1823ce76128fb941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/main.m0000000000000000^4654"CompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/main.o SampleApp/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/charleshblack/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-generated-files.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-own-target-headers.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-all-target-headers.hmap -iquote /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-project-headers.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/include -I<Multiple -Ivalues> -I. -IBuild -ICocoaSoundCloudAPI -ICocoaSoundCloudUI -IJSONKit -IOAuth2Client -IOHAttributedLabel -ISampleApp -ISampleAppTests -ICocoaSoundCloudAPI/Sources -ICocoaSoundCloudUI/SoundCloud.bundle -ICocoaSoundCloudUI/Sources -IJSONKit/JSONKit -IOAuth2Client/Sources -IOHAttributedLabel/AttributedLabel\ Example -IOHAttributedLabel/OHAttributedLabel -ISampleApp/Images.xcassets -ISampleApp/SoundCloud.bundle -ICocoaSoundCloudAPI/Sources/SoundCloudAPI -ICocoaSoundCloudUI/Sources/CocoaAdditions -ICocoaSoundCloudUI/Sources/SoundCloudUI -IOAuth2Client/Sources/OAuth2Client -IOHAttributedLabel/AttributedLabel\ Example/Classes -ISampleApp/Images.xcassets/AppIcon.appiconset -ISampleApp/Images.xcassets/LaunchImage.launchimage -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/DerivedSources/armv7s -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/DerivedSources -F/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos -include /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch -MMD -MT dependencies -MF /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/main.dia -c /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/main.m -o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/main.o36"F618CD32-FC2D-46BC-9EA8-E090FDEECFC4-
-bC903B16C-A3B0-4A41-8BC4-38FECE0FAACB
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/main.m191"CompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/main.o SampleApp/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler11e0605a578fb941^6c5fd85a578fb941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/main.m0000000000000000^4654"CompileC Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/main.o SampleApp/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/charleshblack/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-generated-files.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-own-target-headers.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-all-target-headers.hmap -iquote /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-project-headers.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/include -I<Multiple -Ivalues> -I. -IBuild -ICocoaSoundCloudAPI -ICocoaSoundCloudUI -IJSONKit -IOAuth2Client -IOHAttributedLabel -ISampleApp -ISampleAppTests -ICocoaSoundCloudAPI/Sources -ICocoaSoundCloudUI/SoundCloud.bundle -ICocoaSoundCloudUI/Sources -IJSONKit/JSONKit -IOAuth2Client/Sources -IOHAttributedLabel/AttributedLabel\ Example -IOHAttributedLabel/OHAttributedLabel -ISampleApp/Images.xcassets -ISampleApp/SoundCloud.bundle -ICocoaSoundCloudAPI/Sources/SoundCloudAPI -ICocoaSoundCloudUI/Sources/CocoaAdditions -ICocoaSoundCloudUI/Sources/SoundCloudUI -IOAuth2Client/Sources/OAuth2Client -IOHAttributedLabel/AttributedLabel\ Example/Classes -ISampleApp/Images.xcassets/AppIcon.appiconset -ISampleApp/Images.xcassets/LaunchImage.launchimage -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/DerivedSources/armv7s -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/DerivedSources -F/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos -include /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch -MMD -MT dependencies -MF /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/main.dia -c /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/main.m -o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/main.o36"9387CCC1-C51F-4FBB-8F8E-FC20325CFF6B-
+b65032159-621F-468D-AB06-DC4FF7C8CFFB
 
 CCompileStoryboard /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/Base.lproj/Main.storyboard
-s428806779.973535
-e428806840.320010
+s428824853.454641
+e428824853.710089
 r1
 xCompileStoryboard
 x/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/Base.lproj/Main.storyboard
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"CompileStoryboard SampleApp/Base.lproj/Main.storyboard54"CompileStoryboard SampleApp/Base.lproj/Main.storyboarde960f97b128fb941^210252b8128fb941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/Base.lproj/Main.storyboard0000000000000000^873"CompileStoryboard SampleApp/Base.lproj/Main.storyboard    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/Base.lproj/Main.storyboardc /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/Base.lproj/Main.storyboard36"2FAC9CB0-13EE-43E4-998D-AFE531AB504C-
-bC903B16C-A3B0-4A41-8BC4-38FECE0FAACB
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"CompileStoryboard SampleApp/Base.lproj/Main.storyboard54"CompileStoryboard SampleApp/Base.lproj/Main.storyboard6c7a7415598fb941^11e3b515598fb941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/Base.lproj/Main.storyboard0000000000000000^873"CompileStoryboard SampleApp/Base.lproj/Main.storyboard    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/Base.lproj/Main.storyboardc /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/Base.lproj/Main.storyboard36"515CDD34-368A-4201-B6B7-FEB1F946E40F-
+bB3D74C90-4A49-4192-A751-89B630C9226B
 
 CCopyStringsFile /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/en.lproj/InfoPlist.strings SampleApp/en.lproj/InfoPlist.strings
-s428806779.868069
-e428806779.972934
+s428824417.940479
+e428824418.080006
 r1
 xCopyStringsFile
 x/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/en.lproj/InfoPlist.strings
 xSampleApp/en.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy SampleApp/en.lproj/InfoPlist.strings123"CopyStringsFile Build/Products/Debug-iphoneos/SampleApp.app/en.lproj/InfoPlist.strings SampleApp/en.lproj/InfoPlist.strings1959de7b128fb941^f627f97b128fb941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/en.lproj/InfoPlist.strings0000000000000000^638"CopyStringsFile Build/Products/Debug-iphoneos/SampleApp.app/en.lproj/InfoPlist.strings SampleApp/en.lproj/InfoPlist.strings    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/en.lproj -- SampleApp/en.lproj/InfoPlist.strings36"CC7E62FA-47D3-4EF6-AE6B-35367661217E-
-bC903B16C-A3B0-4A41-8BC4-38FECE0FAACB
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy SampleApp/en.lproj/InfoPlist.strings123"CopyStringsFile Build/Products/Debug-iphoneos/SampleApp.app/en.lproj/InfoPlist.strings SampleApp/en.lproj/InfoPlist.strings66dcf061578fb941^f67d1462578fb941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/en.lproj/InfoPlist.strings0000000000000000^638"CopyStringsFile Build/Products/Debug-iphoneos/SampleApp.app/en.lproj/InfoPlist.strings SampleApp/en.lproj/InfoPlist.strings    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/en.lproj -- SampleApp/en.lproj/InfoPlist.strings36"F9AB4E09-BEBC-4095-9E97-99CC1A86FEFF-
+b65032159-621F-468D-AB06-DC4FF7C8CFFB
 
 CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/SampleApp.app/ResourceRules.plist
-s428806772.102642
-e428806772.172482
+s428824407.637110
+e428824407.666691
 r1
 xCpResource
 x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
 xBuild/Products/Debug-iphoneos/SampleApp.app/ResourceRules.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy Build/Products/Debug-iphoneos/SampleApp.app/ResourceRules.plist196"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/SampleApp.app/ResourceRules.plist3f1a2274128fb941^882a2c74128fb941^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/ResourceRules.plist0034343ddfffdf42^806"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/SampleApp.app/ResourceRules.plist    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app36"FFB7C1F5-72F5-4A07-AF7F-E5CF882154BB-
-bC903B16C-A3B0-4A41-8BC4-38FECE0FAACB
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy Build/Products/Debug-iphoneos/SampleApp.app/ResourceRules.plist196"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/SampleApp.app/ResourceRules.plistcd3aa357578fb941^b8c9ac57578fb941^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/ResourceRules.plist0034343ddfffdf42^806"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/SampleApp.app/ResourceRules.plist    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app36"91295F6D-0202-4706-8DB8-E9F877A99C1E-
+b65032159-621F-468D-AB06-DC4FF7C8CFFB
 
 CCpResource SampleApp/SoundCloud.bundle Build/Products/Debug-iphoneos/SampleApp.app/SoundCloud.bundle
-s428806779.867377
-e428806781.857144
+s428824417.938637
+e428824419.129896
 r1
 xCpResource
 xSampleApp/SoundCloud.bundle
 xBuild/Products/Debug-iphoneos/SampleApp.app/SoundCloud.bundle
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Products/Debug-iphoneos/SampleApp.app/SoundCloud.bundle100"CpResource SampleApp/SoundCloud.bundle Build/Products/Debug-iphoneos/SampleApp.app/SoundCloud.bundled829de7b128fb941^7e6fdb7d128fb941^---0#0#1#-19%DVTDocumentLocation2@136"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/SoundCloud.bundle0034343ddfffdf42^684"CpResource SampleApp/SoundCloud.bundle Build/Products/Debug-iphoneos/SampleApp.app/SoundCloud.bundle    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SoundCloud.bundle /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app36"6956152D-9F92-4D2B-B958-5CBBBF4DEDEF-
-bC903B16C-A3B0-4A41-8BC4-38FECE0FAACB
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Products/Debug-iphoneos/SampleApp.app/SoundCloud.bundle100"CpResource SampleApp/SoundCloud.bundle Build/Products/Debug-iphoneos/SampleApp.app/SoundCloud.bundlecb64f061578fb941^6d562163578fb941^---0#0#1#-19%DVTDocumentLocation2@136"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/SoundCloud.bundle0034343ddfffdf42^684"CpResource SampleApp/SoundCloud.bundle Build/Products/Debug-iphoneos/SampleApp.app/SoundCloud.bundle    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SoundCloud.bundle /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app36"F57DC3ED-D76B-45BA-AC2A-9C56FCCA6B30-
+b65032159-621F-468D-AB06-DC4FF7C8CFFB
+
+CCreateUniversalBinary /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/SampleApp normal armv7\ armv7s\ arm64
+r0
 
 CGenerateDSYMFile /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app.dSYM /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/SampleApp
-s428806840.375465
-e428806842.151058
+s428824853.713906
+e428824853.881405
 r1
 xGenerateDSYMFile
 x/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app.dSYM
 x/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/SampleApp
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Generate /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app.dSYM119"GenerateDSYMFile Build/Products/Debug-iphoneos/SampleApp.app.dSYM Build/Products/Debug-iphoneos/SampleApp.app/SampleApp8e3c60b8128fb941^452d35ba128fb941^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app.dSYM0034343ddfffdf42^725"GenerateDSYMFile Build/Products/Debug-iphoneos/SampleApp.app.dSYM Build/Products/Debug-iphoneos/SampleApp.app/SampleApp    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/SampleApp -o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app.dSYM36"98369094-36D6-476C-B6BB-D949436BEF99-
-bC903B16C-A3B0-4A41-8BC4-38FECE0FAACB
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Generate /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app.dSYM119"GenerateDSYMFile Build/Products/Debug-iphoneos/SampleApp.app.dSYM Build/Products/Debug-iphoneos/SampleApp.app/SampleApp3cd8b615598fb941^98dfe115598fb941^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app.dSYM/0000000000000000^725"GenerateDSYMFile Build/Products/Debug-iphoneos/SampleApp.app.dSYM Build/Products/Debug-iphoneos/SampleApp.app/SampleApp    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/SampleApp -o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app.dSYM36"32CC45A9-2752-40D7-8EB8-4ED82A37D8C9-
+bB3D74C90-4A49-4192-A751-89B630C9226B
+
+CLd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/arm64/SampleApp normal arm64
+r0
+
+CLd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7/SampleApp normal armv7
+r0
+
+CLd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SampleApp normal armv7s
+r0
 
 CLd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/SampleApp normal armv7s
-s428806775.826531
-e428806779.865736
+s428824412.409244
+e428824417.936035
 r1
 xLd
 x/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/SampleApp
@@ -387,7 +755,9 @@ xarmv7s
 d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SampleApp.LinkFileList
 d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCViewController.o
 d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/main.o
+d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SCTTrackListViewController.o
 d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SDCAppDelegate.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
@@ -405,11 +775,17 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Develope
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
@@ -439,25 +815,28 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Develope
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Link /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/SampleApp70"Ld Build/Products/Debug-iphoneos/SampleApp.app/SampleApp normal armv7sdac6d377128fb941^295af57b128fb941^---0#0#1#--2189"Ld Build/Products/Debug-iphoneos/SampleApp.app/SampleApp normal armv7s    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos -F/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos -filelist /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SampleApp.LinkFileList -dead_strip -ObjC -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework Security -framework QuartzCore -framework CoreLocation -framework CoreText -framework CoreGraphics -framework AddressBookUI -framework AddressBook /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/libJSONKit.a /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/libOAuth2Client.a /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/libOHAttributedLabel.a /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/libSoundCloudAPI.a /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/libSoundCloudUI.a -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SampleApp_dependency_info.dat -o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/SampleApp36"46AC007E-BD45-42D7-B8DC-F6B82A26606D-
-bC903B16C-A3B0-4A41-8BC4-38FECE0FAACB
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Link /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/SampleApp70"Ld Build/Products/Debug-iphoneos/SampleApp.app/SampleApp normal armv7s7adf685c578fb941^0aa1ef61578fb941^---0#0#1#--2213"Ld Build/Products/Debug-iphoneos/SampleApp.app/SampleApp normal armv7s    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos -F/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos -filelist /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SampleApp.LinkFileList -dead_strip -ObjC -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework AVFoundation -framework Security -framework QuartzCore -framework CoreLocation -framework CoreText -framework CoreGraphics -framework AddressBookUI -framework AddressBook /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/libJSONKit.a /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/libOAuth2Client.a /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/libOHAttributedLabel.a /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/libSoundCloudAPI.a /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/libSoundCloudUI.a -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/Objects-normal/armv7s/SampleApp_dependency_info.dat -o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/SampleApp36"BF06E59B-80AD-44C6-9860-5C0A20E9EF26-
+b65032159-621F-468D-AB06-DC4FF7C8CFFB
 
 CProcessInfoPlistFile /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/Info.plist /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SampleApp-Info.plist
-s428806840.321369
-e428806840.374496
+s428824439.036010
+e428824439.052027
 r1
 xProcessInfoPlistFile
 x/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/Info.plist
 x/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SampleApp-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Process /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SampleApp-Info.plist106"ProcessInfoPlistFile Build/Products/Debug-iphoneos/SampleApp.app/Info.plist SampleApp/SampleApp-Info.plistfa6352b8128fb941^c2df5fb8128fb941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SampleApp-Info.plist0000000000000000^1154"ProcessInfoPlistFile Build/Products/Debug-iphoneos/SampleApp.app/Info.plist SampleApp/SampleApp-Info.plist    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SampleApp-Info.plist -genpkginfo /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/ResourceRules.plist -additionalcontentfile /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/assetcatalog_generated_info.plist -o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/Info.plist36"F4B7FEC5-F0C8-4AEA-BECE-BD29F2578A5A-
-bC903B16C-A3B0-4A41-8BC4-38FECE0FAACB
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Process /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SampleApp-Info.plist106"ProcessInfoPlistFile Build/Products/Debug-iphoneos/SampleApp.app/Info.plist SampleApp/SampleApp-Info.plistb14e0977578fb941^9c530d77578fb941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SampleApp-Info.plist0000000000000000^1154"ProcessInfoPlistFile Build/Products/Debug-iphoneos/SampleApp.app/Info.plist SampleApp/SampleApp-Info.plist    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SampleApp-Info.plist -genpkginfo /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/ResourceRules.plist -additionalcontentfile /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/assetcatalog_generated_info.plist -o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/Info.plist36"41C76EE2-96E6-496A-AC3D-17F3CC9804E2-
+b65032159-621F-468D-AB06-DC4FF7C8CFFB
 
-CProcessPCH /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-fxaklqtmwvtwdbdcdsnssziwidie/SampleApp-Prefix.pch.pch SampleApp/SampleApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+CProcessPCH /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-dhovdvwidprkkracjffxxijaehie/SampleApp-Prefix.pch.pch SampleApp/SampleApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-diqanunqipsqaidsyqnrycdxgwsj/SampleApp-Prefix.pch.pch SampleApp/SampleApp-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 r0
 
 CProcessPCH /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch.pch SampleApp/SampleApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428806772.174468
-e428806774.327314
+s428824407.668218
+e428824410.374745
 r1
 xProcessPCH
 x/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch.pch
@@ -467,35 +846,44 @@ xarmv7s
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SampleApp-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile SampleApp/SampleApp-Prefix.pch221"ProcessPCH Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch.pch SampleApp/SampleApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler48df2c74128fb941^9fcc5376128fb941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SampleApp-Prefix.pch0000000000000000^4560"ProcessPCH Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch.pch SampleApp/SampleApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/charleshblack/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-generated-files.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-own-target-headers.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-all-target-headers.hmap -iquote /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-project-headers.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/include -I<Multiple -Ivalues> -I. -IBuild -ICocoaSoundCloudAPI -ICocoaSoundCloudUI -IJSONKit -IOAuth2Client -IOHAttributedLabel -ISampleApp -ISampleAppTests -ICocoaSoundCloudAPI/Sources -ICocoaSoundCloudUI/SoundCloud.bundle -ICocoaSoundCloudUI/Sources -IJSONKit/JSONKit -IOAuth2Client/Sources -IOHAttributedLabel/AttributedLabel\ Example -IOHAttributedLabel/OHAttributedLabel -ISampleApp/Images.xcassets -ISampleApp/SoundCloud.bundle -ICocoaSoundCloudAPI/Sources/SoundCloudAPI -ICocoaSoundCloudUI/Sources/CocoaAdditions -ICocoaSoundCloudUI/Sources/SoundCloudUI -IOAuth2Client/Sources/OAuth2Client -IOHAttributedLabel/AttributedLabel\ Example/Classes -ISampleApp/Images.xcassets/AppIcon.appiconset -ISampleApp/Images.xcassets/LaunchImage.launchimage -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/DerivedSources/armv7s -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/DerivedSources -F/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch.dia -MMD -MT dependencies -MF /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch.d -c /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SampleApp-Prefix.pch -o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch.pch36"ADF1A547-06E3-460F-A991-DF4E91F1ECD5-
-bC903B16C-A3B0-4A41-8BC4-38FECE0FAACB
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile SampleApp/SampleApp-Prefix.pch221"ProcessPCH Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch.pch SampleApp/SampleApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerf149ab57578fb941^84f15f5a578fb941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SampleApp-Prefix.pch0000000000000000^4560"ProcessPCH Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch.pch SampleApp/SampleApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/charleshblack/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-generated-files.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-own-target-headers.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-all-target-headers.hmap -iquote /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp-project-headers.hmap -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/include -I<Multiple -Ivalues> -I. -IBuild -ICocoaSoundCloudAPI -ICocoaSoundCloudUI -IJSONKit -IOAuth2Client -IOHAttributedLabel -ISampleApp -ISampleAppTests -ICocoaSoundCloudAPI/Sources -ICocoaSoundCloudUI/SoundCloud.bundle -ICocoaSoundCloudUI/Sources -IJSONKit/JSONKit -IOAuth2Client/Sources -IOHAttributedLabel/AttributedLabel\ Example -IOHAttributedLabel/OHAttributedLabel -ISampleApp/Images.xcassets -ISampleApp/SoundCloud.bundle -ICocoaSoundCloudAPI/Sources/SoundCloudAPI -ICocoaSoundCloudUI/Sources/CocoaAdditions -ICocoaSoundCloudUI/Sources/SoundCloudUI -IOAuth2Client/Sources/OAuth2Client -IOHAttributedLabel/AttributedLabel\ Example/Classes -ISampleApp/Images.xcassets/AppIcon.appiconset -ISampleApp/Images.xcassets/LaunchImage.launchimage -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/DerivedSources/armv7s -I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/DerivedSources -F/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch.dia -MMD -MT dependencies -MF /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch.d -c /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SampleApp-Prefix.pch -o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/PrecompiledHeaders/SampleApp-Prefix-grffexedzpshfwaipqbvkmelzwbs/SampleApp-Prefix.pch.pch36"07B7B0F8-6F9B-483E-82D1-E7CDA72FFA2D-
+b65032159-621F-468D-AB06-DC4FF7C8CFFB
+
+CProcessPCH /Users/charleshblack/Library/Developer/Xcode/DerivedData/SampleApp-csaprpxjtemgdnbkwrjazkwsmkof/Index/PrecompiledHeaders/SampleApp-Prefix-bgrsgpkjrkcavteqmqtkexlzyfms_ast/SampleApp-Prefix.pch.pch SampleApp/SampleApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/charleshblack/Library/Developer/Xcode/DerivedData/SampleApp-csaprpxjtemgdnbkwrjazkwsmkof/Index/PrecompiledHeaders/SampleApp-Prefix-clrhzdwvbksvsydyyisidnorjhkk_ast/SampleApp-Prefix.pch.pch SampleApp/SampleApp-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
 
 CProcessPCH /Users/charleshblack/Library/Developer/Xcode/DerivedData/SampleApp-csaprpxjtemgdnbkwrjazkwsmkof/Index/PrecompiledHeaders/SampleApp-Prefix-dbyzrnottwhbclguawhjkcymkxxh_ast/SampleApp-Prefix.pch.pch SampleApp/SampleApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
-CProcessPCH /Users/charleshblack/Library/Developer/Xcode/DerivedData/SampleApp-csaprpxjtemgdnbkwrjazkwsmkof/Index/PrecompiledHeaders/SampleApp-Prefix-fxmbxsunlbwewhepjsaknfzpskpd_ast/SampleApp-Prefix.pch.pch SampleApp/SampleApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
 CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp.xcent
-s428806842.373701
-e428806842.558336
+s428824439.840001
+e428824439.926881
 r1
 xProcessProductPackaging
 x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
 x/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection227"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp.xcent227"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp.xcent33c25fba128fb941^78f18eba128fb941^---0#0#1#-19%DVTDocumentLocation2@157"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp.xcent0034343ddfffdf42^828"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp.xcent    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp.xcent36"85B6B6DE-D213-486F-9B64-8C9177D1CC25-
-bC903B16C-A3B0-4A41-8BC4-38FECE0FAACB
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection227"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp.xcent227"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp.xcentc425d777578fb941^804aed77578fb941^---0#0#1#-19%DVTDocumentLocation2@157"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp.xcent0034343ddfffdf42^828"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp.xcent    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SampleApp.build/Debug-iphoneos/SampleApp.build/SampleApp.xcent36"77267C87-2C66-412D-ACF2-FA196610DD59-
+b65032159-621F-468D-AB06-DC4FF7C8CFFB
 
 CProcessProductPackaging /Users/charleshblack/Library/MobileDevice/Provisioning\ Profiles/FAAF9052-9474-446F-A68D-74A62F229CD0.mobileprovision /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/embedded.mobileprovision
-s428806842.151992
-e428806842.268708
+s428824439.743277
+e428824439.838181
 r1
 xProcessProductPackaging
 x/Users/charleshblack/Library/MobileDevice/Provisioning Profiles/FAAF9052-9474-446F-A68D-74A62F229CD0.mobileprovision
 x/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection210"ProcessProductPackaging /Users/charleshblack/Library/MobileDevice/Provisioning\ Profiles/FAAF9052-9474-446F-A68D-74A62F229CD0.mobileprovision Build/Products/Debug-iphoneos/SampleApp.app/embedded.mobileprovision210"ProcessProductPackaging /Users/charleshblack/Library/MobileDevice/Provisioning\ Profiles/FAAF9052-9474-446F-A68D-74A62F229CD0.mobileprovision Build/Products/Debug-iphoneos/SampleApp.app/embedded.mobileprovisionf20b27ba128fb941^7dcb44ba128fb941^---0#0#1#-19%DVTDocumentLocation2@143"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/embedded.mobileprovision0034343ddfffdf42^768"ProcessProductPackaging /Users/charleshblack/Library/MobileDevice/Provisioning\ Profiles/FAAF9052-9474-446F-A68D-74A62F229CD0.mobileprovision Build/Products/Debug-iphoneos/SampleApp.app/embedded.mobileprovision    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/charleshblack/Library/MobileDevice/Provisioning\ Profiles/FAAF9052-9474-446F-A68D-74A62F229CD0.mobileprovision -o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/embedded.mobileprovision36"CFB6391E-BF81-4167-8DCE-6F612AF8A36C-
-bC903B16C-A3B0-4A41-8BC4-38FECE0FAACB
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection210"ProcessProductPackaging /Users/charleshblack/Library/MobileDevice/Provisioning\ Profiles/FAAF9052-9474-446F-A68D-74A62F229CD0.mobileprovision Build/Products/Debug-iphoneos/SampleApp.app/embedded.mobileprovision210"ProcessProductPackaging /Users/charleshblack/Library/MobileDevice/Provisioning\ Profiles/FAAF9052-9474-446F-A68D-74A62F229CD0.mobileprovision Build/Products/Debug-iphoneos/SampleApp.app/embedded.mobileprovision336abe77578fb941^7096d677578fb941^---0#0#1#-19%DVTDocumentLocation2@143"file:///Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/embedded.mobileprovision0034343ddfffdf42^768"ProcessProductPackaging /Users/charleshblack/Library/MobileDevice/Provisioning\ Profiles/FAAF9052-9474-446F-A68D-74A62F229CD0.mobileprovision Build/Products/Debug-iphoneos/SampleApp.app/embedded.mobileprovision    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/charleshblack/Library/MobileDevice/Provisioning\ Profiles/FAAF9052-9474-446F-A68D-74A62F229CD0.mobileprovision -o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app/embedded.mobileprovision36"2386EA5B-3A4D-4F39-B16D-3C1388FBB08C-
+b65032159-621F-468D-AB06-DC4FF7C8CFFB
 
 CTouch /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app
-r0
+s428824853.882540
+e428824853.888887
+r1
+xTouch
+x/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Touch /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app49"Touch Build/Products/Debug-iphoneos/SampleApp.app9f00e215598fb941^b890e315598fb941^---0#0#1#--447"Touch Build/Products/Debug-iphoneos/SampleApp.app    cd /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/SampleApp.app36"471DB081-45BD-4EF7-A90C-E775945B4078-
+bB3D74C90-4A49-4192-A751-89B630C9226B
 

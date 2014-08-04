@@ -19,6 +19,8 @@
 		AFAABC0B198F109A00E23E72 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFAABC0A198F109A00E23E72 /* QuartzCore.framework */; };
 		AFAABC0D198F10A200E23E72 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFAABC0C198F10A200E23E72 /* Security.framework */; };
 		AFAABC0F198F11C800E23E72 /* SoundCloud.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AFAABC0E198F11C800E23E72 /* SoundCloud.bundle */; };
+		AFAABC12198F506F00E23E72 /* SCTTrackListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAABC11198F506F00E23E72 /* SCTTrackListViewController.m */; };
+		AFAABC14198F563000E23E72 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFAABC13198F563000E23E72 /* AVFoundation.framework */; };
 		AFB2ECFE1989E10300510FEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB2ECFD1989E10300510FEE /* Foundation.framework */; };
 		AFB2ED001989E10300510FEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB2ECFF1989E10300510FEE /* CoreGraphics.framework */; };
 		AFB2ED021989E10300510FEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB2ED011989E10300510FEE /* UIKit.framework */; };
@@ -156,6 +158,9 @@
 		AFAABC0A198F109A00E23E72 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AFAABC0C198F10A200E23E72 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		AFAABC0E198F11C800E23E72 /* SoundCloud.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SoundCloud.bundle; sourceTree = "<group>"; };
+		AFAABC10198F506F00E23E72 /* SCTTrackListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTTrackListViewController.h; sourceTree = "<group>"; };
+		AFAABC11198F506F00E23E72 /* SCTTrackListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTTrackListViewController.m; sourceTree = "<group>"; };
+		AFAABC13198F563000E23E72 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		AFB2ECFA1989E10300510FEE /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB2ECFD1989E10300510FEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AFB2ECFF1989E10300510FEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -182,6 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFAABC14198F563000E23E72 /* AVFoundation.framework in Frameworks */,
 				AFAABC0D198F10A200E23E72 /* Security.framework in Frameworks */,
 				AFAABC0B198F109A00E23E72 /* QuartzCore.framework in Frameworks */,
 				AFAABC08198F108E00E23E72 /* CoreLocation.framework in Frameworks */,
@@ -283,6 +289,7 @@
 		AFB2ECFC1989E10300510FEE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AFAABC13198F563000E23E72 /* AVFoundation.framework */,
 				AFAABC0C198F10A200E23E72 /* Security.framework */,
 				AFAABC0A198F109A00E23E72 /* QuartzCore.framework */,
 				AFAABC06198F108E00E23E72 /* CoreLocation.framework */,
@@ -305,6 +312,8 @@
 				AFB2ED0F1989E10300510FEE /* Main.storyboard */,
 				AFB2ED121989E10300510FEE /* SDCViewController.h */,
 				AFB2ED131989E10300510FEE /* SDCViewController.m */,
+				AFAABC10198F506F00E23E72 /* SCTTrackListViewController.h */,
+				AFAABC11198F506F00E23E72 /* SCTTrackListViewController.m */,
 				AFB2ED151989E10300510FEE /* Images.xcassets */,
 				AFB2ED041989E10300510FEE /* Supporting Files */,
 			);
@@ -535,6 +544,7 @@
 			files = (
 				AFB2ED141989E10300510FEE /* SDCViewController.m in Sources */,
 				AFB2ED0A1989E10300510FEE /* main.m in Sources */,
+				AFAABC12198F506F00E23E72 /* SCTTrackListViewController.m in Sources */,
 				AFB2ED0E1989E10300510FEE /* SDCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

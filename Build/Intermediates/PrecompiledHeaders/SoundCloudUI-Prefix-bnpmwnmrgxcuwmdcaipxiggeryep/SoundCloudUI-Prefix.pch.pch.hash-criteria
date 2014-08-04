@@ -1,0 +1,46 @@
+Contents of /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudUI/Sources/SoundCloudUI-Prefix.pch
+-x
+objective-c
+-arch
+armv7s
+-std=gnu99
+-fpascal-strings
+-O0
+-DDEBUG=1
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+-g
+-miphoneos-version-min=5.0
+-iquote
+-iquote
+-I/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos/include
+-I..
+-I../Build
+-I../CocoaSoundCloudAPI
+-I../CocoaSoundCloudUI
+-I../JSONKit
+-I../OAuth2Client
+-I../OHAttributedLabel
+-I../SampleApp
+-I../SampleAppTests
+-I../CocoaSoundCloudAPI/Sources
+-I../CocoaSoundCloudUI/SoundCloud.bundle
+-I../CocoaSoundCloudUI/Sources
+-I../JSONKit/JSONKit
+-I../OAuth2Client/Sources
+-I../OHAttributedLabel/AttributedLabel Example
+-I../OHAttributedLabel/OHAttributedLabel
+-I../SampleApp/Images.xcassets
+-I../SampleApp/SoundCloud.bundle
+-I../CocoaSoundCloudAPI/Sources/SoundCloudAPI
+-I../CocoaSoundCloudUI/Sources/CocoaAdditions
+-I../CocoaSoundCloudUI/Sources/SoundCloudUI
+-I../OAuth2Client/Sources/OAuth2Client
+-I../OHAttributedLabel/AttributedLabel Example/Classes
+-I../SampleApp/Images.xcassets/AppIcon.appiconset
+-I../SampleApp/Images.xcassets/LaunchImage.launchimage
+-F/Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Products/Debug-iphoneos
+arm-apple-darwin13.3.0
+"4.2.1 Compatible Apple LLVM 5.1 (clang-503.0.40)"
+SDK_PRODUCT_BUILD_VERSION=11D167
+11D167

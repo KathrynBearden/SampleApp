@@ -10,4 +10,7 @@
 
 @interface SDCViewController : UIViewController
 
+- (IBAction) login:(id) sender;
+- (IBAction) getTracks:(id) sender;
+
 @end

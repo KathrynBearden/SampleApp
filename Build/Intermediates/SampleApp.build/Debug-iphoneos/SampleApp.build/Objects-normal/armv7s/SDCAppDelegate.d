@@ -1,3 +1,12 @@
 dependencies: \
   /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCAppDelegate.m \
-  /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCAppDelegate.h
+  /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/SampleApp/SDCAppDelegate.h \
+  CocoaSoundCloudUI/Sources/SoundCloudUI/SCUI.h \
+  CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCAPI.h \
+  CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCConstants.h \
+  CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCSoundCloud.h \
+  CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCAccount.h \
+  CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCRequest.h \
+  CocoaSoundCloudUI/Sources/SoundCloudUI/SCUIErrors.h \
+  CocoaSoundCloudUI/Sources/SoundCloudUI/SCShareViewController.h \
+  CocoaSoundCloudUI/Sources/SoundCloudUI/SCLoginViewController.h

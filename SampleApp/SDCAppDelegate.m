@@ -7,8 +7,20 @@
 //
 
 #import "SDCAppDelegate.h"
+#import "SCUI.h"
 
 @implementation SDCAppDelegate
+
+NSString *const kCLIENT_ID = @"72e3bbd3fe1128c8761cfaa4e0a237c2";
+NSString *const kCLIENT_SECRET = @"d1a3e7281a3acfbd791b43114d46f750";
+NSString *const kREDIRECT_URL = @"sampleproject://oauth";
+
++ (void) initialize
+{
+    [SCSoundCloud setClientID:kCLIENT_ID
+                       secret:kCLIENT_SECRET
+                  redirectURL:[NSURL URLWithString:kREDIRECT_URL]];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
