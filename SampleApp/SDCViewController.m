@@ -50,6 +50,31 @@
     }];
 }
 
+- (IBAction)upload:(id)sender
+{
+    NSURL *trackURL = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"Spring" ofType:@"mp3"]];
+    
+    SCShareViewController *shareViewController;
+    SCSharingViewControllerCompletionHandler handler;
+    
+    handler = ^(NSDictionary *trackInfo, NSError *error) {
+        if (SC_CANCELED(error)) {
+            NSLog(@"Canceled!");
+        } else if (error) {
+            NSLog(@"Error: %@", [error localizedDescription]);
+        } else {
+            NSLog(@"Uploaded track: %@", trackInfo);
+        }
+    };
+    shareViewController = [SCShareViewController
+                           shareViewControllerWithFileURL:trackURL
+                           completionHandler:handler];
+    [shareViewController setTitle:@"Spring"];
+    [shareViewController setPrivate:YES];
+    
+    [self presentViewController:shareViewController animated:YES completion:nil];
+}
+
 - (IBAction) getTracks:(id) sender
 {
     SCAccount *account = [SCSoundCloud account];
@@ -71,9 +96,11 @@
                                              JSONObjectWithData:data
                                              options:0
                                              error:&jsonError];
+        NSLog(@"Performed Json Response");
         if (!jsonError && [jsonResponse isKindOfClass:[NSArray class]])
         {
             [self performSegueWithIdentifier:@"getTracks" sender:(NSArray *)jsonResponse];
+            NSLog(@"Got to Perform Segue");
             /*
             SCTTrackListViewController *trackListVC;
             trackListVC = [[SCTTrackListViewController alloc]
@@ -104,6 +131,8 @@
     if ([segue.identifier isEqualToString:@"getTracks"])
     {
         trackListVC.tracks = (NSArray *)sender;
+       int trackCount = trackListVC.tracks.count;
+        NSLog(@"num of tracks: %d", trackCount);
     }
     
 }

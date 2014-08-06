@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AFA983A01992ECF000EAB611 /* Spring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFA9839F1992ECF000EAB611 /* Spring.mp3 */; };
 		AFAABBFD198F106400E23E72 /* libJSONKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFAABBE1198F0D7600E23E72 /* libJSONKit.a */; };
 		AFAABBFE198F106400E23E72 /* libOAuth2Client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFAABBEC198F0D8200E23E72 /* libOAuth2Client.a */; };
 		AFAABBFF198F106400E23E72 /* libOHAttributedLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFAABBF2198F0D9200E23E72 /* libOHAttributedLabel.a */; };
@@ -146,6 +147,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AFA9839F1992ECF000EAB611 /* Spring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Spring.mp3; sourceTree = "<group>"; };
 		AFAABBC9198F0D2C00E23E72 /* SoundCloudUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SoundCloudUI.xcodeproj; path = CocoaSoundCloudUI/SoundCloudUI.xcodeproj; sourceTree = "<group>"; };
 		AFAABBD2198F0D6300E23E72 /* SoundCloudAPI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SoundCloudAPI.xcodeproj; path = CocoaSoundCloudAPI/SoundCloudAPI.xcodeproj; sourceTree = "<group>"; };
 		AFAABBDB198F0D7600E23E72 /* JSONKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JSONKit.xcodeproj; path = JSONKit/JSONKit.xcodeproj; sourceTree = "<group>"; };
@@ -307,6 +309,7 @@
 		AFB2ED031989E10300510FEE /* SampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				AFA9839F1992ECF000EAB611 /* Spring.mp3 */,
 				AFB2ED0C1989E10300510FEE /* SDCAppDelegate.h */,
 				AFB2ED0D1989E10300510FEE /* SDCAppDelegate.m */,
 				AFB2ED0F1989E10300510FEE /* Main.storyboard */,
@@ -522,6 +525,7 @@
 			files = (
 				AFB2ED161989E10300510FEE /* Images.xcassets in Resources */,
 				AFAABC0F198F11C800E23E72 /* SoundCloud.bundle in Resources */,
+				AFA983A01992ECF000EAB611 /* Spring.mp3 in Resources */,
 				AFB2ED081989E10300510FEE /* InfoPlist.strings in Resources */,
 				AFB2ED111989E10300510FEE /* Main.storyboard in Resources */,
 			);

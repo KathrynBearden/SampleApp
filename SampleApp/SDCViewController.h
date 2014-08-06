@@ -12,5 +12,6 @@
 
 - (IBAction) login:(id) sender;
 - (IBAction) getTracks:(id) sender;
+- (IBAction)upload:(id)sender;
 
 @end

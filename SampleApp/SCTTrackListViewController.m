@@ -58,12 +58,15 @@
     if (cell == nil)
     {
         cell = [[UITableViewCell alloc]
-                initWithStyle:UITableViewCellStyleDefault
+                initWithStyle:UITableViewCellStyleSubtitle
                 reuseIdentifier:CellIdentifier];
     }
     
     NSDictionary *track = [self.tracks objectAtIndex:indexPath.row];
     cell.textLabel.text = [track objectForKey:@"title"];
+    NSLog(@"The Row Number is %@", cell.textLabel.text);
+    int rowNumber = indexPath.row + 1;
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"%d", rowNumber];
     
     return cell;
 }
