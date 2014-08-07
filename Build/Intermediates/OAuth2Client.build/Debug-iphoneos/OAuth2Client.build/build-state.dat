@@ -309,7 +309,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies70d181f2ed92b941^9e45abf2ed92b941^---0#1#1#--18"Check dependencies36"2FE36819-92B5-4E04-A4BE-3199D9E40A43-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb249b61b3b93b941^a147001c3b93b941^---0#1#1#--18"Check dependencies36"B05295BE-8311-4817-B996-A7476D02E994-
 
 CCompileC /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/OAuth2Client.build/Debug-iphoneos/OAuth2Client.build/Objects-normal/armv7s/NSData+NXOAuth2.o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/OAuth2Client/Sources/NSData+NXOAuth2.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s428824404.238422

@@ -23,12 +23,15 @@
     NSDictionary *track = [self.tracks objectAtIndex:indexPath.row];
     NSString *streamURL = [track objectForKey:@"stream_url"];
     
-    SCAccount *account = [SCSoundCloud account];
+    NSString *urlString = [NSString stringWithFormat:@"%@?client_id=%@", streamURL, @"72e3bbd3fe1128c8761cfaa4e0a237c2"];
+    
+    
+    // SCAccount *account = [SCSoundCloud account];
     
     [SCRequest performMethod:SCRequestMethodGET
-                  onResource:[NSURL URLWithString:streamURL]
+                  onResource:[NSURL URLWithString:urlString]
              usingParameters:nil
-                 withAccount:account
+                 withAccount:nil
       sendingProgressHandler:nil
              responseHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
                  NSError *playerError;
@@ -64,7 +67,6 @@
     
     NSDictionary *track = [self.tracks objectAtIndex:indexPath.row];
     cell.textLabel.text = [track objectForKey:@"title"];
-    NSLog(@"The Row Number is %@", cell.textLabel.text);
     int rowNumber = indexPath.row + 1;
     cell.detailTextLabel.text = [NSString stringWithFormat:@"%d", rowNumber];
     

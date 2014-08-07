@@ -75,9 +75,41 @@
     [self presentViewController:shareViewController animated:YES completion:nil];
 }
 
+
+- (IBAction) downloadPlaylist:(id) sender
+{
+    dispatch_queue_t concurrentQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    
+    dispatch_sync(concurrentQueue, ^{
+        
+        // SoundCloud info : songsonsunday user_ID 41080003
+        // https://api.soundcloud.com/resolve.json?url=https://soundcloud.com/songsonsunday/tracks&client_id=72e3bbd3fe1128c8761cfaa4e0a237c2
+        
+        
+        NSURL *url = [NSURL URLWithString:@"https://api.soundcloud.com/users/41080003/tracks.json?client_id=72e3bbd3fe1128c8761cfaa4e0a237c2&limit=3"];
+        NSData *data = [NSData dataWithContentsOfURL:url];
+        NSError *error;
+        
+        id trackData = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
+        
+        if (!error)
+        {
+            [self performSegueWithIdentifier:@"getTracks" sender:(NSArray *)trackData];
+            NSLog(@"Sending Track Data to VC");
+        } else {
+            NSLog(@"Playlist wasn't able to download: %@", error);
+        }
+    });
+}
+
+
+
+
+
 - (IBAction) getTracks:(id) sender
 {
     SCAccount *account = [SCSoundCloud account];
+    
     if (account == nil) {
         UIAlertView *alert = [[UIAlertView alloc]
                               initWithTitle:@"Not Logged In"

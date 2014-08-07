@@ -243,7 +243,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc556acf2ed92b941^bce7c8f2ed92b941^---0#1#1#--18"Check dependencies36"96EFC55A-4F2F-4289-8E1F-736586FDAD8F-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb3d1011c3b93b941^8e73371c3b93b941^---0#1#1#--18"Check dependencies36"7296411A-388D-49E4-9202-85A4D13D2DC3-
 
 CCompileC /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/SoundCloudAPI.build/Debug-iphoneos/SoundCloudAPI.build/Objects-normal/armv7s/SCAccount+Private.o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCAccount+Private.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s428824407.381468

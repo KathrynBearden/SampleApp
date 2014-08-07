@@ -81,7 +81,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies76dd4ff2ed92b941^a7407ef2ed92b941^---0#1#1#--18"Check dependencies36"87088B3A-0F1E-44E2-9CCC-9084AB9D620C-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies24d25a1b3b93b941^b60fb51b3b93b941^---0#1#1#--18"Check dependencies36"89E1B12F-6510-4CE0-9B47-D693CEF1CC47-
 
 CCompileC /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/Build/Intermediates/OHAttributedLabel.build/Debug-iphoneos/OHAttributedLabel.build/Objects-normal/armv7s/NSAttributedString+Attributes.o /Users/charleshblack/Desktop/Kathryn/SoundCloud/SampleApp/SampleApp/OHAttributedLabel/OHAttributedLabel/NSAttributedString+Attributes.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s428824399.976486
